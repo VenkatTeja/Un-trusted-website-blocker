@@ -32,7 +32,7 @@ Run the command ```sudo python blockade_start.py```
 # Start PM2 process
 1. Open terminal and navigate to project root directory
 2. Run ```pm2 kill```
-3. Run ```sudo pm2 start start.sh```
+3. Run ```sudo ./start.sh```
 4. You can open the latest log file in logs folder to track the actions
 
 # Useful PM2 Commands
@@ -50,3 +50,6 @@ Once your application is successfully running, Run below commands to auto start
 2. ```pm2 startup```
 
 You can now restart and run ```pm2 list``` to see if application is running. 
+
+# License
+MIT License
