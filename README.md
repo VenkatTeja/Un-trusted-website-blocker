@@ -7,7 +7,7 @@ network the system is connected to.
 
 # Requirements
 1. Needs Python 3. Haven't tested on python 2.7 or earlier
-
+**Supports MacOS as of now, but can easily be configured for other OS too. Need to just change the hosts path**
 # Setup
 1. Copy original hosts file to project directory and rename it as original_hosts
 2. Add the trusted public IPs in trusted_ips.json
